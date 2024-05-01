@@ -1,0 +1,32 @@
+app-like-button {
+    /* Estilos para el contenedor del botón */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 80px;
+    background: none; /* Fondo transparente */
+    border: none;
+  }
+  
+  .button {
+    /* Estilos para el botón */
+    background: none; /* Fondo transparente */
+    border: none; /* Sin borde */
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  img {
+    /* Estilos para la imagen de la mano */
+    width: 40px;
+    height: 40px;
+        /* Estilos para el botón */
+    background: none; /* Fondo transparente */
+    border: none; /* Sin borde */
+    cursor: pointer;
+    padding: 0;
+  }
+  
