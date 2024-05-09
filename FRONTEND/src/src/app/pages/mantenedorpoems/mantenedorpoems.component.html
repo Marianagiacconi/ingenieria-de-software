@@ -1,0 +1,62 @@
+<!-- poems.component.html -->
+
+<app-header></app-header>
+
+<main class="bg-light" style="min-height: 80vh">
+  <div class="container">
+    <div class="py-5 text-center">
+      <h2>Ingresar un nuevo poema</h2>
+    </div>
+
+    <div class="row g-5">
+      <div class="col-md-12 col-lg-12">
+        <!-- <h4 class="mb-3">Billing address</h4> -->
+        <form class="needs-validation" novalidate>
+          <div class="row g-3 justify-content-center">
+            <div class="col-sm-8">
+              <label style="color: black" for="firstName" class="form-label"
+                >Título</label
+              >
+              <textarea
+                type="text"
+                class="form-control"
+                id="firstName"
+                placeholder=""
+                value=""
+                required
+                [(ngModel)]="poemData.title"
+                ></textarea>
+              <div class="invalid-feedback">El título es requerido.</div>
+            </div>
+
+            <div class="col-sm-8">
+              <label
+                style="color: black"
+                for="exampleFormControlTextarea1"
+                class="form-label"
+                >Poema</label
+              >
+              <textarea
+                id="content"
+                name="content"
+                class="form-control"
+                placeholder="Escribe tu poema aquí.."
+                rows="6"
+                required
+                [(ngModel)]="poemData.content"
+              ></textarea>
+              <div class="invalid-feedback">El poema es requerido.</div>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+              <button class="btn btn-dark me-md-2" type="button" (click)="submitPoem()">subir</button>
+
+
+              <button class="btn btn-dark" type="button">Cancelar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <br />
+</main>

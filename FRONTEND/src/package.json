@@ -1,0 +1,48 @@
+{
+  "name": "src",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "dev": "ng serve -o",
+    "start": "ng serve --builder=@angular-builders/custom-webpack:browser --config=custom-webpack.config.js",
+    "build": "ng build --builder=@angular-builders/custom-webpack:browser --config=custom-webpack.config.js"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular-devkit/build-angular": "^14.2.8",
+    "@angular/animations": "^14.2.0",
+    "@angular/common": "^14.2.0",
+    "@angular/compiler": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/forms": "^14.2.0",
+    "@angular/platform-browser": "^14.2.0",
+    "@angular/platform-browser-dynamic": "^14.2.0",
+    "@angular/router": "^14.2.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "util": "^0.12.5",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular/cli": "~14.2.6",
+    "@angular/compiler-cli": "^14.2.0",
+    "@types/jasmine": "~4.0.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/jwt-decode": "^3.1.0",
+    "crypto-browserify": "^3.12.0",
+    "jasmine-core": "~4.3.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "stream-browserify": "^3.0.0",
+    "typescript": "~4.7.2",
+    "vm-browserify": "^1.1.2"
+  }
+}
