@@ -1,10 +1,5 @@
-# Programming 1
-### Group I:
- - Abel Carrizo
- - Mariana Giacconi
- - Nicolas Panella
 
-## Application execution:
+## Application execution Backend:
 
 1. Installation of project: 
 
@@ -17,3 +12,7 @@
 ```bash
 ./boot.sh
 ```
+## Application execution Frontend:
+
+1. npm install
+2. ng serve -o
